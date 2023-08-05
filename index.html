@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>juego de Tuleyshon</title>
+        <meta chrset="utf-8">
+        <link rel="stylesheet" href="nose.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="medias.css">
+        <link rel="icon" href="descarga.jpg">
+    </head>
+    <body>
+        <div class="imagenes">
+            <img class="imagenIdea" id="imagenIdea" src="idea-removebg-preview.png">
+            <img class="imagenPensando" id="imagenPensando" src="pensando-removebg-preview.png">
+        </div>
+
+       <div class="pregunta">
+        <h2>En que numero estará pensando ? (del 1 al 100) </h2>
+        <input id="numeroIngresado" type="number" min="1" max="100">
+        <button class="adivinar" onclick="adivinar()">Adivinar</button>
+        <p class="pIncorrecto" id="pIncorrecto">
+            <b>INCORRECTO</b><br><br>
+            La maquina pensó en el <span id="rtaI"></span>
+        </p>
+        <p class="pCorrecto" id="pCorrecto">
+            <b class="bg">ASOMBROSO !!</b><br><br>
+            La maquina pensó lo mismo que vos, en el  <span id="rtaC"></span>
+        </p>
+        <button class="ultimoBoton" id="ultimoBoton" onclick="recargar()">Jugar de nuevo</button>
+       </div>
+
+       <audio id="audioFail">
+        <source src="Efecto de sonido fail (nueva versión).mp3">
+       </audio>
+
+       <audio id="audioCorrect">
+        <source src="SONIDO RESPUESTA CORRECTA.mp3">
+       </audio>
+        <script src="nose.js"></script>
+    </body>
+</html>

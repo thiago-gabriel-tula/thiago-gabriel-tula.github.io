@@ -1,0 +1,296 @@
+body{
+    background:linear-gradient(to right, rgb(78, 196, 243), rgb(19, 128, 172));
+    min-height: 100vh;
+}
+
+.imagenIdea{
+    margin-left:510px;
+    width:250px;
+    display:none;
+}
+
+.imagenPensando{
+    margin-left:530px;
+    width:250px;
+    display:block;
+}
+
+.pregunta{
+    border:1px solid black;
+    width:500px;
+    padding-left:3%;
+    min-height:300px;
+    margin-left:400px;
+    border-radius:23px;
+    background-color: whitesmoke;
+    font-family: 'Kanit', sans-serif;
+    font-size: small;
+}
+
+input{
+    margin-left:130px;
+    width:70px;
+    height:30px;
+    border-top:none;
+    border-left:none;
+    border-bottom:4px solid orange;
+    border-radius: 3px;
+    font-size:25px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.adivinar{
+    margin-top:20px;
+    margin-left:20px;
+    background-color: rgba(43, 240, 43, 0.808);
+    border-radius:5px;
+    width:90px;
+    height:30px;
+    font-size: larger;
+    font-family: 'Kanit', sans-serif;
+}
+
+p{
+    margin-top:30px;
+}
+
+.pIncorrecto{
+    color:red;
+    display:none;
+    margin-left:120px;
+    font-size:larger;
+    font-family: 'Kanit', sans-serif;
+}
+
+.pCorrecto{
+    display:none;
+    margin-left:100px;
+    color:green;
+    font-size:larger;
+    font-family: 'Kanit', sans-serif;
+}
+
+b{
+    margin-left:70px;
+}
+
+.ultimoBoton{
+    margin-left:155px;
+    margin-top:10px;
+    background: rgb(253, 10, 10);
+    border-radius: 24px;
+    color:white;
+    width:130px;
+    height:30px;
+    display:none;
+}
+
+
+@media screen and (max-width:1115px){
+    .imagenIdea{
+        margin-left: 500px;
+    }
+    .imagenPensando{
+        margin-left: 520px;
+    }
+}
+
+@media screen and (max-width: 1019px){
+    .pregunta{
+        margin-left:200px;
+    }
+
+    .imagenPensando{
+        margin-left: 320px;
+    }
+    .imagenIdea{
+        margin-left: 300px;
+    }
+}
+
+@media screen and (max-width: 823px){
+    .pregunta{
+        margin-left:130px;
+    }
+    .imagenIdea{
+        margin-left:230px;
+    }
+    .imagenPensando{
+        margin-left: 270px;
+    }
+}
+
+
+@media screen and (max-width: 740px){
+    .pregunta{
+        margin-left:100px;
+    }
+
+    .imagenPensando{
+        margin-left: 230px;
+    }
+
+    .imagenIdea{
+        margin-left:210px;
+    }
+}
+
+
+@media screen and (max-width: 669px){
+    .pregunta{
+        width:400px;
+        font-size: 11px;
+    }
+
+    input{
+        margin-left:100px;
+    }
+
+    .imagenIdea{
+        margin-left:160px;
+    }
+
+    .imagenPensando{
+        margin-left: 190px;
+    }
+
+    .pIncorrecto{
+        margin-left: 100px;
+    }
+
+    .ultimoBoton{
+        margin-left:120px;
+    }
+
+    b{
+        margin-left:60px;
+    }
+
+    .pCorrecto{
+        margin-left: 50px;
+    }
+
+    .bg{
+        margin-left:100px;
+    }
+}
+
+@media screen and (max-width: 577px){
+    .pregunta{
+        margin-left:50px;
+    }
+
+    .imagenPensando{
+        margin-left: 130px;
+    }
+
+    .imagenIdea{
+        margin-left:110px;
+    }
+}
+
+
+@media screen and (max-width: 500px){
+    .imagenPensando{
+        width:200px;
+        margin-left:150px;
+    }
+
+    .pregunta{
+        width:370px;
+    }
+
+    b{
+        margin-left: 45px;
+    }
+
+    .pCorrecto{
+        margin-left: 20px;
+    }
+
+    .bg{
+        margin-left:120px;
+    }
+
+    .imagenIdea{
+        width:200px;
+        margin-left:130px;
+    }
+}
+
+
+@media screen and (max-width: 460px){
+    .pregunta{
+        margin-left:45px;
+        width:320px;
+        font-size: 9px;
+    }
+
+    input{
+        margin-left:60px;
+    }
+
+    .pIncorrecto{
+        margin-left:15px;
+        font-size:16px;
+    }
+
+    b{
+        margin-left: 90px;
+    }
+
+    .ultimoBoton{
+        margin-left: 90px;
+    }
+
+    .imagenPensando{
+        width:180px;
+        margin-left: 130px;
+    }
+
+    .pCorrecto{
+        font-size:13px;
+        margin-left:9px;
+    }
+
+    .bg{
+        font-size: 16px;
+        margin-left: 98px;
+    }
+
+    .imagenIdea{
+        width:180px;
+        margin-left:110px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .imagenPensando{
+        width:145px;
+        margin-left: 120px;
+    }
+
+    .pregunta{
+        margin-left:30px;
+        width:300px;
+        font-size: 8.7px;
+    }
+
+    .ultimoBoton{
+        margin-left: 80px;
+    }
+
+    .imagenIdea{
+        width:145px;
+        margin-left:110px;
+    }
+
+    .pCorrecto{
+        font-size:13px;
+        margin-left:1px;
+    }
+
+    bg{
+        font-size: 30px;
+    }
+}

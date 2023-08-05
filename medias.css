@@ -1,0 +1,111 @@
+@media screen and (max-width:377px){
+    .pregunta{
+        margin-left:30px;
+        width:250px;
+        font-size: 10px;
+    }
+
+    input{
+        margin-left:30px;
+    }
+
+    .pIncorrecto{
+        margin-left:1px;
+        font-size:16px;
+    }
+
+    b{
+        margin-left: 70px;
+    }
+
+    .ultimoBoton{
+        margin-left: 55px;
+    }
+
+    .imagenPensando{
+        margin-left: 100px;
+    }
+
+    .imagenIdea{
+        margin-left:80px;
+    }
+
+    .pCorrecto{
+        font-size:11px;
+    }
+    .bg{
+        margin-left:70px;
+    }
+} 
+
+
+@media screen and (max-width:325px){
+    .pregunta{
+        margin-left:40px;
+        width:200px;
+        font-size:9px;
+    }
+
+    input{
+        margin-left:10px;
+        width:45px;
+        height:25px;
+    }
+
+    .adivinar{
+        margin-left:10px;
+        width:90px;
+        font-size: 16px;
+    }
+
+    .pIncorrecto{
+        margin-left:1px;
+        font-size:13px;
+    }
+
+    b{
+        margin-left:50px;
+    }
+
+    .ultimoBoton{
+        margin-left: 40px;
+        height: auto;
+        width:auto;
+    }
+
+    .imagenPensando{
+        margin-left: 80px;
+        width:140px;
+    }
+
+    .imagenIdea{
+        margin-left:60px;
+        width:140px;
+    }
+
+    .pCorrecto{
+        font-size:13px;
+    }
+
+    .bg{
+        margin-left:45px;
+    }
+} 
+
+
+@media screen and (max-width:282px){
+    .pregunta{
+        margin-left: 20px;
+    }
+
+    .imagenPensando{
+        margin-left: 60px;
+        width:130px;
+    }
+
+    .imagenIdea{
+        margin-left:50px;
+        width:130px;
+    }
+}
+
